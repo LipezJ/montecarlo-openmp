@@ -1,0 +1,5 @@
+montecarlo
+montecarlo_secuencial
+*.o
+.DS_Store
+*.pdf
