@@ -1,0 +1,21 @@
+# Equipo de medicion (macOS no tiene lscpu; equivalente con sysctl)
+ProductName:		macOS
+ProductVersion:		27.0
+BuildVersion:		26A428
+
+hw.model: Mac17,9
+machdep.cpu.brand_string: Apple M5 Pro
+hw.ncpu: 15
+hw.physicalcpu: 15
+hw.logicalcpu: 15
+hw.nperflevels: 2
+hw.perflevel0.name: Super
+hw.perflevel0.physicalcpu: 5
+hw.perflevel0.l2cachesize: 16777216
+hw.perflevel1.name: Performance
+hw.perflevel1.physicalcpu: 10
+hw.perflevel1.l2cachesize: 8388608
+hw.l1dcachesize: 65536
+hw.memsize: 25769803776
+
+gcc-16 (Homebrew GCC 16.2.0) 16.2.0
